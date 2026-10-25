@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Private/raw data
+dataset.csv
+*.csv
+!outputs/*.csv
+
+# Generated local artifacts that can be regenerated
+.DS_Store
